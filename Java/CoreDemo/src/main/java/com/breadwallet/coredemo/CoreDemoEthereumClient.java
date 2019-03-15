@@ -13,6 +13,9 @@ import java.util.List;
 import java.util.Map;
 
 public class CoreDemoEthereumClient implements BREthereumEWM.Client {
+
+    static { System.loadLibrary("core"); }
+
     interface WalletListener {
         void announceWalletEvent (BREthereumEWM ewm,
                                   BREthereumWallet wallet,
