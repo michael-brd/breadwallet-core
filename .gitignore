@@ -31,10 +31,12 @@
 # Debug files
 *.dSYM/
 
-# IDE files
-*.xcworkspace
-*.xcodeproj
+# Xcode (see Swift/.gitignore)
+# xcuserdata/
 
-.idea/
+# Android Studio / IntelliJ (see Java/.gitignore)
+#.idea/
 
 test
+.git-re*
+CoreTestsConfig.json
